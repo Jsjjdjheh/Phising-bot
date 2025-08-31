@@ -1,0 +1,11 @@
+{
+  "name": "phishing-api",
+  "version": "1.0.0",
+  "description": "API for handling phishing form submissions",
+  "main": "api.py",
+  "scripts": {
+    "start": "python api.py"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
