@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/api.py"
+    }
+  ],
+  "functions": {
+    "api/api.py": {
+      "runtime": "python3.9",
+      "memory": 1024
+    }
+  }
+}
